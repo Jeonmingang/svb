@@ -1,0 +1,16 @@
+name: UltimateSurvivalDefense
+main: com.minkang.ultimate.sdefense.UltimateSurvivalDefense
+version: 1.2.0
+api-version: 1.16
+author: Minkang
+description: Stage survival defense with barricades + MythicMobs for CatServer/Spigot 1.16.5
+softdepend: [MythicMobs]
+commands:
+  sdef:
+    description: 생존 디펜스 명령어 (ASCII 백업 명령)
+    usage: /sdef help
+    aliases: [sd, 생존디펜스, 디펜스]
+permissions:
+  sdef.admin:
+    description: 생존 디펜스 관리자 권한
+    default: op
